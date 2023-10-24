@@ -27,12 +27,22 @@ const MainSection = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <button
-              type="submit"
-              className="bg-[#162055] mt-10 text-white py-2 px-4 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-            >
-              Submit
-            </button>
+            <div className="flex justify-start">
+              <button
+                type="submit"
+                className=" bg-[#216565] mt-10 text-white py-2 px-4 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              >
+                Explore More
+              </button>
+
+              <button
+                type="submit"
+                className="bg-[#162055] flex ml-5 mt-10 text-white py-2 px-4 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              >
+                <img src="./static/phone-call.png" className="mr-2 w-6" />
+                Call Us Now
+              </button>
+            </div>
           </div>
 
           <div className="col-span-6">
